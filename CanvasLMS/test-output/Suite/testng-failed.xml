@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]">
+  <test thread-count="5" parallel="tests" name="ChromeTest(failed)">
+    <parameter name="pw" value="Pass@1234"/>
+    <parameter name="un" value="ajaykadam@india.cogbooks.com"/>
+    <parameter name="Browsers" value="chrome"/>
+    <classes>
+      <class name="com.canvaslms.testcases.TestCasesOnCanvasUsers">
+        <methods>
+          <include name="startCourse"/>
+          <include name="CourseActivity"/>
+          <include name="launchTopic4"/>
+          <include name="launchTopic2"/>
+          <include name="launchTopic3"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.canvaslms.testcases.TestCasesOnCanvasUsers -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

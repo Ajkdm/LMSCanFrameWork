@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+  <test name="ChromeTest">
+  <parameter name="Browsers" value="chrome"/>
+   <parameter name="un" value="ajaykadam@india.cogbooks.com"/>
+    <parameter name="pw" value="Pass@1234"/>
+    <classes>
+      <class name="com.canvaslms.testcases.TestCasesOnCanvasUsers"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+  <test name="ChromeTest">
+  <parameter name="Browsers" value="chrome"/>
+   <parameter name="un" value="QAtest05"/>
+    <parameter name="pw" value="Pass@1234"/>
+    <classes>
+      <class name="com.canvaslms.testcases.TestCasesOnCanvasUsers"/>
+    </classes>
+  </test>
+   <test name="EdgeTest">
+  <parameter name="Browsers" value="Edge"/>
+  <parameter name="un" value="QAtest06"/>
+  <parameter name="pw" value="Pass@1234"/>
+    <classes>
+      <class name="com.canvaslms.testcases.TestCasesOnCanvasUsers"/>
+    </classes>
+  </test>
+  <test name="chromeIncognitoTest">
+  <parameter name="Browsers" value="chromeIncognito"/>
+  <parameter name="un" value="QAtest07"/>
+  <parameter name="pw" value="Pass@1234"/>
+    <classes>
+      <class name="com.canvaslms.testcases.TestCasesOnCanvasUsers"/>
+    </classes>
+  </test>
+  
+  <test name="EdgeIncognitoTest">
+  <parameter name="Browsers" value="EdgeIncognito"/>
+  <parameter name="un" value="QAtest08"/>
+  <parameter name="pw" value="Pass@1234"/>
+    <classes>
+      <class name="com.canvaslms.testcases.TestCasesOnCanvasUsers"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->
